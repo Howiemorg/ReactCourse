@@ -1,6 +1,6 @@
 import ManyExpenses from "./components/Expenses/ManyExpenses";
 
-function App() {
+const App = () => {
   const expenses = [
     {
       id: "e1",
