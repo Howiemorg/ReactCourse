@@ -1,3 +1,4 @@
+import NewExpense from "./components/NewExpense/NewExpense";
 import ManyExpenses from "./components/Expenses/ManyExpenses";
 
 const App = () => {
@@ -25,7 +26,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <ManyExpenses expenses={expenses} />
     </div>
   );
